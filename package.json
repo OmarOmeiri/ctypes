@@ -4,7 +4,7 @@
   "description": "A package containing common typings for the entire Lullo ecosystem",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LulloIO/lullo-common-types.git"
+    "url": "https://github.com/OmarOmeiri/ctypes.git"
   },
   "scripts": {
     "build": "bash scripts/build.sh",
