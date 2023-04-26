@@ -1,0 +1,1 @@
+type ComparisonOperators = 'lt' | 'lte' | 'gt' | 'gte' | 'eq' | 'ne'

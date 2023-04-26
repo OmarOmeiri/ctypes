@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+      "target": "ESNEXT",
+      "module": "commonjs",
+      "lib": [
+          "esnext",
+          "dom"
+      ],
+      "allowJs": false,
+      "sourceMap": true,
+      "outDir": "./build",
+      "rootDir": "./",
+      "composite": true,
+      "noEmit": false,
+      "resolveJsonModule": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "strictFunctionTypes": true,
+      "strictBindCallApply": true,
+      "strictPropertyInitialization": true,
+      "useUnknownInCatchVariables": false,
+      "noImplicitThis": true,
+      "alwaysStrict": true,
+      "noErrorTruncation": true,
+      "noFallthroughCasesInSwitch": true,
+      "moduleResolution": "node",
+      "baseUrl": "./",
+      "types": [
+          "express",
+          "node"
+        ],
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "inlineSources": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+  },
+  "exclude": [
+    "node_modules",
+    "./build"
+  ],
+  "include": [
+    "./**/*",
+  ],
+  "ts-node": {
+    "files": true
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "lullo-common-types",
+  "version": "1.0.0",
+  "description": "A package containing common typings for the entire Lullo ecosystem",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LulloIO/lullo-common-types.git"
+  },
+  "scripts": {
+    "build": "bash scripts/build.sh",
+    "pub": "bash scripts/build.sh && bash scripts/push.sh",
+    "prepare": "npm run build"
+  },
+  "main": "./build/index.js",
+  "exports": {
+    ".": "./build/index.js",
+    "./fin-wiz": "./build/finwiz/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.22.1",
+    "glob": "^8.0.3",
+    "ts-node": "^10.3.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.1",
+    "@types/express-serve-static-core": "^4.17.24",
+    "@types/mongoose": "^5.11.97"
+  }
+}
